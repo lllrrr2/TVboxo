@@ -36,9 +36,9 @@ var rule = {
         }
      `,
      limit: 6,
-	class_parse: '.hl-menus li;a&&span&&Text;a&&href;.*/(.*?)\.html',
-     //class_name:'新旧番剧&欧美动漫',
-     //class_url:'vt20&vt21',
+	//class_parse: '.hl-menus li;a&&span&&Text;a&&href;.*/(.*?)\.html',
+    class_name:'电影&电视剧&综艺&动漫',
+    class_url:'1&2&3&4',
      double: false,
      推荐: '*',
      一级: '.hl-vod-list li;a&&title;a&&data-original;.hl-lc-1&&Text;a&&href',
